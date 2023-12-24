@@ -1,0 +1,32 @@
+body{
+    background-color: hsl(335, 77%, 88%);
+}
+img{
+    margin-left: 440px;
+    align-self: center;
+}
+.btn{
+    margin-left: 520px;
+    background-color: lightpink;
+    border: none;
+    text-align: center;
+    size: 100px;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    border-radius: 12px;
+}
+#no{
+    margin-left: 150px;
+    position: absolute;
+}
+.textt{
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}

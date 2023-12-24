@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="light pink">
+    <div>
+        <h1 class="textt">Do YOU Lomve me?</h1>
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif">
+    <div class="buttons" id="buttons">
+        <div>
+            <button type="submit" class="btn" id="yes" onclick="register()">Yes</button>
+            <button type="button>" class="btn" id="no" onmouseover="moveButton()" onclick="moveButton()">No</button>
+        </div>
+    </div>
+    </div>
+    <script>
+          function register(){
+                     window.location.href="register.html";
+          }
+          
+          function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('no').offsetWidth);
+                        var y = Math.random() * (window.innerHeight - document.getElementById('no').offsetHeight);
+                        document.getElementById('no').style.left = `${x}px`;
+                        document.getElementById('no').style.top = `${y}px`;
+                    }
+    </script>
+</body>
+</html>
