@@ -1,12 +1,16 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: hsl(335, 77%, 88%);
 }
 img{
-    margin-left: 440px;
+    margin-left: 70px;
     align-self: center;
 }
 .btn{
-    margin-left: 520px;
+    margin-left: 150px;
     background-color: lightpink;
     border: none;
     text-align: center;
